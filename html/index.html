@@ -14,8 +14,8 @@
     <header>
         <div id="cabecalho">
             <img src="../imagens/logo.jpg" id="logo">
-            <nav id="menu"> <!-- Cria a barra de navegação (Menu) -->
-                <ul class="menu">
+            <nav> <!-- Cria a barra de navegação (Menu) -->
+                <ul id="menu">
                     <li>
                         <a href="#produtos">Produtos</a>
                     </li>
@@ -35,12 +35,82 @@
 
     <!-- Corpo principal -->
     <main>
+        <section id="boasvindas">
+            <div>
+                <h1>Os melhores picolés artesanais de Joinville</h1>
+            </div>
+            <div class="imagem">
+                <img src="../imagens/cliente_1.jpg">
+            </div>
+        </section>
 
+        <!-- Seção Produtos -->
+        <section id="produtos" class="produtos">
+            <h2>Nossos Sabores</h2>
+            <div class="card-container">
+                <div class="card">
+                    <img src="../imagens/picoles_2.jpg" alt="Picolé de Frutas Vermelhas">
+                    <h3>Frutas Vermelhas</h3>
+                    <p>Feito com morangos frescos e framboesas</p>
+                </div>
+                <div class="card">
+                    <img src="../imagens/picoles_2.jpg" alt="Picolé de Limão Siciliano">
+                    <h3>Limão Siciliano</h3>
+                    <p>Refrescante e levemente azedinho</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção Sobre -->
+        <section id="sobre" class="sobre">
+            <h2>Sobre Nós</h2>
+            <div class="sobre-conteudo">
+                <div class="imagem">
+                    <img src="../imagens/cliente_2.jpg" alt="Fábrica de picolés">
+                </div>
+                <div>
+                    <p>Há mais de 15 anos levando alegria para Joinville</p>
+                    <ol>
+                        <li>Seleção rigorosa de ingredientes</li>
+                        <li>Produção artesanal diária</li>
+                        <li>Controle de qualidade</li>
+                    </ol>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção Localização -->
+        <section id="localizacao" class="localizacao">
+            <h2>Onde Estamos</h2>
+            <div class="mapa">
+                <img src="../imagens/mapa.jpg" alt="Localização no SESI Escola de Referência">
+                <address>
+                    SESI Escola de Referência<br>
+                    R. Urussanga, 85 - Bucarein<br>
+                    Joinville - SC
+                </address>
+            </div>
+        </section>
+
+        <!-- Seção Contato -->
+        <section id="contato" class="contato">
+            <h2>Fale Conosco</h2>
+            <div class="contato-info">
+                <p>Telefone: (47) 99999-9999</p>
+                <p>Email: contato@picoleteria.com.br</p>
+                <ul class="redes-sociais">
+                    <li><a href="#"><img src="../imagens/facebook.png" alt="Facebook"></a></li>
+                    <li><a href="#"><img src="../imagens/instagram.png" alt="Instagram"></a></li>
+                </ul>
+            </div>
+        </section>
     </main>
 
-    <!-- Rodapé -->
-    <footer>
-
+    <!-- Footer -->
+    <footer class="rodape">
+        <p>&copy; 2025 Picoleteria - Todos os direitos reservados</p>
+        <hr>
+        <p>Desenvolvido por DS24 M7</p>
     </footer>
 </body>
 
