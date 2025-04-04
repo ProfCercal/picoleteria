@@ -107,7 +107,8 @@ h1, h2 {
 
 .sobre-conteudo {
     display: flex;
-    justify-content: space-between;
+    gap: 10px;
+    justify-content: space-around;
     align-items: center;
 }
 
